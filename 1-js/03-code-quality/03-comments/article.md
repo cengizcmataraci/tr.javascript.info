@@ -1,7 +1,7 @@
 # Yorumlar
 
-<info:structure> bölümünden de bildiğiniz üzre, yorumlar tek satır `//` olabileceği gibi birden çok satır da olabilir `/* .. */`.
-Genelde  yorum satırları kodun nasıl ve niçin çalıştığını anlatmak için kullanılır.
+<info:structure> bölümünden de bildiğiniz üzere, yorumlar tek satır `//` olabileceği gibi birden çok satır da olabilir `/* .. */`.
+Genelde yorum satırları kodun nasıl ve niçin çalıştığını anlatmak için kullanılır.
 
 İlk görüşte yorum yapmanın gereklilik olduğu aşikardır. Fakat programlama yeni başlayanlar bunu ilk önce genelde yanlış anlamaktadırlar.
 
@@ -107,7 +107,7 @@ function addJuice(kap) {
   }
 }
 ```
-Tekrardan söylemek gerekirse nelerin olup bittiğini yorum değil, fonksiyonun kendisi söylemeli.Ayrıca kod yapısı fonksiyonlar şeklinde ayrık olduğunda daha düzgün olur. Her fonksiyonun ne argüman aldığı ne geri döndürdüğü bellidir.
+Tekrardan söylemek gerekirse nelerin olup bittiğini yorum değil, fonksiyonun kendisi söylemeli. Ayrıca kod yapısı fonksiyonlar şeklinde ayrık olduğunda daha düzgün olur. Her fonksiyonun ne argüman aldığı ne geri döndürdüğü bellidir.
 
 Gerçekte neyin olup bittiğini söyleyen yorumu tamamen çıkarmak olanaksızdır. Bazen karmaşık algorimalar olabilir. Bazen akıllıca yapılmış kısayollar olabilir. Fakat genel olarak kod basit ve kendi kendini açıklayıcı olmalı.
 
@@ -148,7 +148,7 @@ Neden bu yöntemle çözüldü?
 
     Böyle yorumların yapılmadığı durumlarda aşağıdakiler meydana gelebilir:
     1. Siz ( veya arkadaşınız ) editörü açtığında, yazılan kodun vasat olduğunu görebilir düşünebilir.
-    2. Şöyle düşünebilirsiniz: "O zaman da ne salakmışım, şimdi akıllandım harikayim artık" ve kodu tekrar daha iyi ve doğru şekilde yazarsınız.
+    2. Şöyle düşünebilirsiniz: "O zaman da ne salakmışım, şimdi akıllandım harikayım artık" ve kodu tekrar daha iyi ve doğru şekilde yazarsınız.
     3. ... Tekrar yazma isteği iyidir. Fakat "daha açık ve doğru" çözüm aslında eksiktir. Daha önce zaten en iyi şekilde yazmaya çalışmıştın. Bunu yaparken zaman harcadın ve şimdi bu süre çöpe gitti.
 
     Çözümü açıklayan yorumlar gerçekten çok önemlidir. Geliştirmeyi doğru yoldan yapmanıza büyük katkı sağlar.
@@ -157,14 +157,14 @@ Eğer kodda nerede kullanıldığına veya özelliklerine dair ipuçları bulmak
 
 ## Özet
 
-İyi programcının en önemli özelliklerinden biri yorumlarının varlığı, hatta yokluğudur.
+İyi bir programcının en önemli özelliklerinden biri yorumlarının varlığı, hatta yokluğudur.
 
 İyi yorumlar kodun bakımının düzgün bir şekilde yapılmasını sağlar. Daha sonra geri dönüldüğünde her şeye daha etkin bir şekilde başlanır.
 
 **Bunları yorum olarak yazın:**
 
 - Genel mimari, ince detayına kadar değil sadece kuş bakışı
-- Fonksiyon kullanımı.
+- Fonksiyon kullanımı
 - Önemli çözümler, özellikle çözüm çok açık değilse
 
 **Bunlar için yorum yazmayın:**
