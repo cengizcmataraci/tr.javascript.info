@@ -4,7 +4,7 @@ importance: 4
 
 # Kötü Stil
 
-Aşağıdaki kodun stilinde ne yanlışları vardır?
+Aşağıdaki kodun stilinde yanlış olan nedir?
 
 
 ```js no-beautify
