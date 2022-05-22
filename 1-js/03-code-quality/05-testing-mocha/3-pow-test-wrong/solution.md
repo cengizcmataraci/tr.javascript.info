@@ -1,6 +1,6 @@
 Bu test programcıların test yazarken onları cezbedecek yanlış yöntemleri göstermektedir.
 
-Burada aslında 3 tane test var, fakat bunların hepsi bir fonksiyon içine tıkıştırılmış
+Burada aslında 3 tane test var, fakat bunların hepsi bir fonksiyon içine tıkıştırılmış.
 
 Bazen böyle yazmak kolay olsa da bir hata olursa bu gizli saklı kalır ve nerede hata olduğu anlaşılamaz.
 
@@ -27,7 +27,7 @@ describe("x'in n. kuvvetini alir", function() {
 
 Soruda tek bir `it` vardı. Bu birçok `it` bloğu ile değiştirildi. Eğer şimdi bir yanlış olursa yanlışın neden kaynaklandığı daha açık bir biçimde görünür.
 
-Ayrıca sadece tek bir `it` bloğu çalıştırmak istiyorsanız Mocha bunu `it.only` ile yapmanızı sağlar.:
+Ayrıca sadece tek bir `it` bloğu çalıştırmak istiyorsanız Mocha bunu `it.only` ile yapmanızı sağlar:
 
 
 ```js
