@@ -1,11 +1,11 @@
 # Ninja Kodları
 
-Ninja programcıların eskiden bu kurnazlıkları yaparak kodu tekrardan düzenleyenleri ağlatırlardı. Kod guruları bu kodları anca test yazarak kontrol edebilirdi. Yeni kod yazmaya başlayanlar bazen daha iyi kullanabilirler.
+Ninja programcıların eskiden bu kurnazlıkları yaparak kodu tekrardan düzenleyenleri ağlatırlardı. Kod guruları bu kodları ancak test yazarak kontrol edebilirdi. Yeni kod yazmaya başlayanlar bazen daha iyi kullanabilirler.
 
 Dikkatlice oku ve hangisisin bul bakalım - ninja, çaylak, veya kod eleştirmeni.
 
 ```warn header="İroni tespit edildi!"
-Bu kodlar kötü yazıma örnektirler.!!!
+Bu kodlar kötü yazıma örnektirler!!!
 ```
 
 ## Özlük aklın ruhudur!
@@ -27,20 +27,20 @@ Ona kısa yazmanın her zaman daha iyi olduğunu söyleyin. Sizin yolunuza yani 
 ```quote author="Laozi (Tao Te Ching)"
 Dao kelimesizlikte saklıdır. Sadece Dao doğru başlamıştır ve doğru biter.
 ```
-Diğer bir şekilde daha hızlı ( ve daha beter!) kod yazma yöntemi de tek-harfli değişkenler kullanmaktır. Örneğin `a`,`b` ve `c` gibi.
+Diğer bir şekilde daha hızlı (ve daha beter!) kod yazma yöntemi de tek-harfli değişkenler kullanmaktır. Örneğin `a`,`b` ve `c` gibi.
 
 Kısa değişken isimleri kodun içerisinde aynen bir ninjanın ormanda kaybolduğu gibi kaybolurlar. Kimse onları "arayarak" bulamaz. Hatta birisi bulsa bile ne olduğunu çözemez
 
-.... Fakat bir istisna var. Gerçek ninja hiçbir zaman `for` döngüsünde sayaç için `i` kullanmaz. Her yerde kullanır ama orada kullanmaz. Biraz kurcalayın daha çok garip harf var. Örneğin `x` veya `y` gibi.
+... Fakat bir istisna var. Gerçek ninja hiçbir zaman `for` döngüsünde sayaç için `i` kullanmaz. Her yerde kullanır ama orada kullanmaz. Biraz kurcalayın daha çok garip harf var. Örneğin `x` veya `y` gibi.
 
-Garip değişkenler eğer döngü gövdesi 1-2 sayfaysa daha harika olurlar. ( olabildiğince uzun olsun). Eğer birisi daha derinlemesine bakarsa, kolayca `x` in döngü sayacı olduğunu anlayamasın.
+Garip değişkenler eğer döngü gövdesi 1-2 sayfaysa daha harika olurlar. (olabildiğince uzun olsun). Eğer birisi daha derinlemesine bakarsa, kolayca `x` in döngü sayacı olduğunu anlayamasın.
 
 
 ## Kısaltmalar kullan
 
-Eğer takım tek karakter veya garip kelimeler kullanmanızı engelliyorsa sizde kısaltmalar kullanın
+Eğer takım tek karakter veya garip kelimeler kullanmanızı engelliyorsa sizde kısaltmalar kullanın.
 
-örneğin:
+Örneğin:
 
 - `list` -> `lst`.
 - `userAgent` -> `ua`.
@@ -54,9 +54,9 @@ Sadece gerçekten iyi sezgilere sahip olanlar ne demek istediğinizi anlayacakla
 ## Yükseklere çıkın, soyutlaşın.
 
 ```quote author="Laozi (Tao Te Ching)"
-Mükemmel karenin köşeleri yoktur<br>
-Mükemmel gemi en son inşa edilendir,<br>
-Harika nota karmaşık olandır,<br>
+Mükemmel karenin köşeleri yoktur
+Mükemmel gemi en son inşa edilendir,
+Harika nota karmaşık olandır,
 Harika görselin belirli bir formu yoktur.
 ```
 
@@ -70,11 +70,11 @@ Bir isim seçerken en soyut kelimeyi kullanmaya çalışın. `obj`, `data`, `val
 - **Değişkeni tipi ile tanımlayın: `str`, `num`...**
     Bir defa deneyin. Genç ninjanın ağzı açık kalsın -- böyle isimler gerçekten de kodu kötü mü yapar? Evet!
 
-    Bir taraftan değişken isimleri hala bir şey ifade ediyor. Değişkenin içinde ne var bunu söylüyor: karakter, sayı veya başka bir şey. Fakat dışından başkası kodu anlamaya çalıştığında, şaşıracak ve aslında hiçbir bilgi olmadığını anlayacak
+    Bir taraftan değişken isimleri hala bir şey ifade ediyor. Değişkenin içinde ne var bunu söylüyor: karakter, sayı veya başka bir şey. Fakat dışından başkası kodu anlamaya çalıştığında, şaşıracak ve aslında hiçbir bilgi olmadığını anlayacak.
 
     Gerçektende değerin tipi hata ayıklarken kolayca bulunabilir. Fakat ya anlamı? Hangi karakter veya sayıyı tutuyor? Bu sorunun cevabı anca iyi bir meditasyon ile bulunabilir!
 
-- **...Peki artık bu değişkenlerden kalmadıysa?** Tabiki yanlarına sayı ekleyebilirsiniz: `data1, item2, elem5` gibi.
+- **...Peki artık bu değişkenlerden kalmadıysa?** Tabii ki yanlarına sayı ekleyebilirsiniz: `data1, item2, elem5` gibi.
 
 
 ## Dikkat testi
@@ -84,7 +84,7 @@ Sadece gerçekten dikkatli programcılar kodu anlayabilmeli. Fakat bunu nasıl k
 
 **Bunlardan biri -- benzer değişken isimleri kullanın `date` ve `data` gibi.**
 
-Olabildiğince birbiri ile karıştırırn.
+Olabildiğince birbiri ile karıştırın.
 
 Karıştırın ki kodu okuyan kişi kolayca okuyamasın. Eğer bir yazım hatası falan varsa, uzun bir süre takılmışsan, bir çay arası versin.
 
@@ -96,36 +96,36 @@ Hepsinden zoru karanlık odada kara kediyi bulmak, hele bir de odada kedi yoksa.
 
 *Aynı şeyler* için *birbirine yakın* şeyler kullanmak hayatı daha ilginç kılar ve sizin yaratıcılığınız topluma gösterme açısından iyi bir fırsattır.
 
-Örneğin, fonksiyon öneklerini kullanın. Eğer bir fonksiyon ekrana çıktı veriyorsa `display_` ön eki ile başlayın. Örneğin `displayMessage`. Sonrasında başka bir fonksiyonda ekrana yine bir şey yazdırmak isterseniz bu defa `show_` kullanın. Örneğin `showName`
+Örneğin, fonksiyon ön eklerini kullanın. Eğer bir fonksiyon ekrana çıktı veriyorsa `display_` ön eki ile başlayın. Örneğin `displayMessage`. Sonrasında başka bir fonksiyonda ekrana yine bir şey yazdırmak isterseniz bu defa `show_` kullanın. Örneğin `showName`
 
-Bu fonksiyonlar için hiçbir farklılık olmasada sanki farklılık varmış hissi yaratın.
+Bu fonksiyonlar için hiçbir farklılık olmasa da sanki farklılık varmış hissi yaratın.
 
-Diğer ninjalarla birleşip: Eğer Ahmet ekranda yazı gösteren fonksiyona `display..` ile başlıyorsa, Mehmet `render..` ile başlasın, Mehtapta `paint..` kullansın gibi kararlar verebilirsiniz. Düşünün kod ne kadar da ilginç ve çeşitli olur.
+Diğer ninjalarla birleşip: Eğer Ahmet ekranda yazı gösteren fonksiyona `display..` ile başlıyorsa, Mehmet `render..` ile başlasın, Mehtap da `paint..` kullansın gibi kararlar verebilirsiniz. Düşünün kod ne kadar da ilginç ve çeşitli olur.
 
 ... ve şimdi hatrick!!!
 
-birbirinden farklı olan iki önemli fonksioyonu aynı önek ile kullanın.
+Birbirinden farklı olan iki önemli fonksiyonu aynı ön ek ile kullanın.
 
 Örneğin, fonksiyon  `printPage(page)` yazıcıyı kullansın. `printText(text)` ise ekrana yazdırsın. Diyelim ki sizin kodunuza aşina olmayan bir okur bu iki fonksiyonun birbirine yakın isimleri olduğundan karıştırabilir. `printMessage` "Mesajı nereye yazdırmaktadır? Ekrana mı yoksa yazıcıya mı?" Daha da işi çıkmaza götürmek ve ustalığınızı belli etmek için `printMessage(mesaj)` kullanabilirsiniz. Bu da mesajı yeni pencerede göstersin.
 
 ## İsimleri tekrar kullanın
 
 ```quote author="Laozi (Tao Te Ching)"
-Bütün taksim edildiğinde, her <br>
-birinin isme ihtiyacı var.<br>
-Yeteri kadar isim var.<br>
+Bütün taksim edildiğinde, her
+birinin isme ihtiyacı var.
+Yeteri kadar isim var.
 Kişi ne zaman duracağını bilmeli.
 ```
 
 Sadece çok gerekli olduğunda yeni değişken ekleyin.
 
-Bunun yerine, var olanı kullanın. Ona yeni değerler atayın
+Bunun yerine, var olanı kullanın. Ona yeni değerler atayın.
 
 Fonksiyonda sadece paslanan değeri kullanmaya çalışın.
 
 Bu gerçekten o değişkenin içinde *şu anda* ne olduğunu ve nereden geldiğini anlamayı zor kılar. Az dikkatli birisi hepsinin üzerinden satır satır geçmeli ve her kod dalındaki değişikliği takip etmelidir.
 
-**Daha gelişmiş bir yaklaşım ise gizlice(!) bir döngü veya fonksiyon içindeki değişkenin değerini aynısı ile değiştirmek**
+**Daha gelişmiş bir yaklaşım ise gizlice(!) bir döngü veya fonksiyon içindeki değişkenin değerini aynısı ile değiştirmektir**
 
 Örneğin:
 
@@ -139,13 +139,13 @@ function ninjaFonksiyonu(elem) {
 }
 ```
 
-`elem` ile çalışmak isteyen yazılımcı dostunuz fonksiyonun ikinci bölümünde şaşıracaktır. Sadece hata ayıklarken bunun farkına varabilir. Sonrasında bir de bakar ki aslında klonuyla çalışıyormuş
+`elem` ile çalışmak isteyen yazılımcı dostunuz fonksiyonun ikinci bölümünde şaşıracaktır. Sadece hata ayıklarken bunun farkına varabilir. Sonrasında bir de bakar ki aslında klonuyla çalışıyormuş.
 
 Ölümcül derecede etkin bir yoldur. Hatta usta ninjalar bile bu olay karşısında şaşkınlık yaşayabilirler.
 
 ## Eğlence için alttan çizgi kullanmak.
 
-Değişken isimlerinden önce alttan çizgi kullanın `_`, `__` gibi. Örneğin `_isim` veya `__deger` gibi. Bunun anlamını sadece siz biliyorsanız harika olur. Veya, daha iyisi, bunları eğlencesine ekleyin. hiçbir anlamı olmasın. Farklı yerlerde farklı anlamlara gelsin.
+Değişken isimlerinden önce alttan çizgi kullanın `_`, `__` gibi. Örneğin `_isim` veya `__deger` gibi. Bunun anlamını sadece siz biliyorsanız harika olur. Veya, daha iyisi, bunları eğlencesine ekleyin. Hiçbir anlamı olmasın. Farklı yerlerde farklı anlamlara gelsin.
 
 Bir taşla iki kuş vurdunuz. Önce kodu daha uzun ve daha az okunabilir yaptınız, ikinci olarak, yazılımcı dostunuzu tongaya düşürerek alttan çizginin ne anlama geldiğini bulması için uzunca bir süre uğraşmasını sağladınız.
 
@@ -153,15 +153,15 @@ Zeki bir ninja bir yerde alttan çizgi kullanır, başka bir yerde kullanmaz. B�
 
 ## Aşkınızı gösterin
 
-Herkese varlık(entity)larınızın ne kadar mükemel olduğunu gösterin. Örneğin `harikaElement`, `guzelAlert`, `cokAkilliNinja` gibi isimlendirmeler kodunuzu okuyanları aydınlatacaktır.
+Herkese varlıklarınızın (entity) ne kadar mükemmel olduğunu gösterin. Örneğin `harikaElement`, `guzelAlert`, `cokAkilliNinja` gibi isimlendirmeler kodunuzu okuyanları aydınlatacaktır.
 
-Gerçekten de bir yandan `super...`, `harika...`, `mega...` gibi kullanmış fakat diğer yandan hiçbir detay vermemiş olursunuz. Okuyucunun bunun altında yatan anlamı bulması için bir kaç saat meditasyon yapıp hayatını sorgulaması gerekmektedir.
+Gerçekten de bir yandan `super...`, `harika...`, `mega...` gibi kullanmış fakat diğer yandan hiçbir detay vermemiş olursunuz. Okuyucunun bunun altında yatan anlamı bulması için birkaç saat meditasyon yapıp hayatını sorgulaması gerekmektedir.
 
 
 ## Global değişkenlerin veya dıştaki değişkenlerin üzerine başka değer yazın
 
 ```quote author="Guan Yin Zi"
-Işıktayken karanlıktaki hiçbir şey görünmez<br>
+Işıktayken karanlıktaki hiçbir şey görünmez
 Karanlıktayken, aydınlıktaki her şey görünür.
 ```
 
@@ -204,7 +204,7 @@ Her kim ki `if(checkPermission(..))` yazarsa neden çalışmadığını anlayama
 ## Güçlü fonksiyonlar!
 
 ```quote author="Laozi (Tao Te Ching)"
-Büyük Tao heryerden akar,<br>
+Büyük Tao heryerden akar,
 sağa ve sola.
 ```
 
@@ -217,13 +217,13 @@ Ek eylemler fonksiyonun isminde kesinlikle belirtilmesin. Gerçek bir ninja prog
 
 **Birçok eylemi bir fonksiyona yazın ki kodun tekrardan kullanılmasını engelleyin**
 
-Düşünün ki, diğer yazılımcı sadece email'i kontrol etmek istiyor ve ekrana çıktı vermek istemiyor. Sizin fonksiyonunuz `emailDogrula(email)` ve hem doğruluk kontrolü yapıyor hemde ekrana hata çıktısı veriyor. Bundan dolayı size bu yazılımcının soracağı bir şey olamaz. Siz zaten ikisini de yapmışsınız.
+Düşünün ki, diğer yazılımcı sadece email'i kontrol etmek istiyor ve ekrana çıktı vermek istemiyor. Sizin fonksiyonunuz `emailDogrula(email)` ve hem doğruluk kontrolü yapıyor hem de ekrana hata çıktısı veriyor. Bundan dolayı size bu yazılımcının soracağı bir şey olamaz. Siz zaten ikisini de yapmışsınız.
 
 ## Özet
 
 Yukarıda bulunan tavsiyeler gerçek kodlardan alınmıştır. Bazıları deneyimli geliştiriciler tarafından yazılmıştır. Belki de sizden bile deneyimli programcılardan ;)
 
 
-- Tavsiyelerden bazılarını uygularsanız kodunuz tamamen süprizlerle dolar.
+- Tavsiyelerden bazılarını uygularsanız kodunuz tamamen sürprizlerle dolar.
 - Çoğunu uygularsanız, kodunuz gerçekten de sadece size ait olur. Kimse değiştiremez.
 - Hepsini uygularsanız aydınlanma arayışında olan genç geliştiricilere iyi bir ders vermiş olursunuz.
