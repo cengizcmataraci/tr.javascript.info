@@ -3,14 +3,14 @@ Notunuz aşağıdaki gibi olabilir:
 
 ```js no-beautify
 function ust(x,n)  // <- argümanlar arasında boşluk bulunmamakta.
-{  // <-süslü parantez yeni satırda
-  let sonuc=1;   // <-  = in iki yanında da boşluk bulunmamakta
+{  // <- süslü parantez yeni satırda
+  let sonuc=1;   // <- ='in iki yanında da boşluk bulunmamakta
   for(let i=0;i<n;i++) {sonuc*=x;}   // <- boşluk yok
   // süslü parantezin içi yeni bir satırda olmalı
   return sonuc;
 }
 
-let x=prompt("x?",''), n=prompt("n?",'') // <-- teknik olarka mümkün,
+let x=prompt("x?",''), n=prompt("n?",'') // <- teknik olarak mümkün,
 // fakat iki satır yapmak daha iyi, ayrıca boşluk ve ; kullanılmamış.
 if (n<0)  // <- (n < 0) olmalı, arada boşluk kullanılmamış
 {   // <- süslü parantez yeni satırda
@@ -23,7 +23,7 @@ else // <- tek satırda  "} else {" şeklinde kullanılabilir.
 }
 ```
 
-düzeltilmiş şekli:
+Düzeltilmiş şekli:
 
 ```js
 function ust(x, n) {
