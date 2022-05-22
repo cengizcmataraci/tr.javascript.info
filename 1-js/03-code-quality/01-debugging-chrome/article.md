@@ -20,12 +20,12 @@ Eğer ilk defa bu işlemi yapıyorsanız görmeniz gereken ekran şudur:
 
 Sol tarafta bulunan açma kapama butonu  <span class="devtools" style="background-position:-168px -76px"></span> size dosyaları gösteren bir tab açar.
 
-Bu panelde `hello.js` i seçtiğinizde aşağıdaki gibi bir ekran görmeniz gerekir.
+Bu panelde `hello.js`'i seçtiğinizde aşağıdaki gibi bir ekran görmeniz gerekir.
 
 ![](chrome-tabs.svg)
 
 Bu bölüm üçe ayrılmıştır:
-1. **Dosya Gezgini**: Html, javascript, css ve diğer dosyalar görseller de dahil olmak üzere açılan sayfaya ait olan kaynakları gösterir. Chrome eklentileri de burada yer alabilir.
+1. **Dosya Gezgini**: HTML, JavaScript, CSS ve diğer dosyalar görseller de dahil olmak üzere açılan sayfaya ait olan kaynakları gösterir. Chrome eklentileri de burada yer alabilir.
 2. **Kod Editörü** burası ise kaynak kodu gösterir.
 3. **Bilgi ve kontrol bölgesi** burada ise hata ayıklama yapılır.
 
@@ -43,7 +43,7 @@ Komut çalıştıktan sonra sonucunu hemen altında gösterir.
 
 ## Kesme Noktası
 
-[Örnek Kod](debugging/index.html) içerisinde ne olduğunu incelenecek olursa. `hello.js` içerisinde `4.` satıra tıklayın. Evet `4` e tıklayın koda değil.
+[Örnek Kod](debugging/index.html) içerisinde ne olduğunu incelenecek olursa. `hello.js` içerisinde `4.` satıra tıklayın. Evet `4` e tıklayın, koda değil.
 
 Tebrikler artık ilk kesme noktanızı oluşturdunuz. Lütfen `8` e de tıklayın.
 
@@ -58,7 +58,7 @@ Kod durdurulduğunda, o anki değişken değerlerini inceleyebilir veya konsolda
 Oluşturulan bu kesme noktalarını sağ taraftaki panelde list halinde görmek mümkündür. Bu farklı dosyalarda eğer kesme noktaları varsa bunları görme açısından yararlı bir özelliktir. Eğer birçok dosyada kesme noktası varsa bu panel vasıtasıyla:
 
 - İstenilen herhangi bir kesme noktasına doğrudan üstüne tıklayarak gidilebilir.
-- Geçici olarak kesme noklarını devre dışı bırakılabilir.
+- Geçici olarak kesme noktalarını devre dışı bırakılabilir.
 - Sağ tıklayıp Sil'e tıkladığınızda bu kesme noktalarını silebilirsiniz.
 
 ```smart header="Koşullu kesme noktaları"
@@ -100,7 +100,7 @@ Lütfen bilgilerin görüneceği dropdownları sağ panelden açınız. Bu böl�
 
 2. **`Call Stack` -- İç içe çağrı zincirlerini gösterir.**
 
-    Şu anda hata ayıklayıcı `merhaba()` fonksiyonunun içindedir ve `index.html` tarafından çağırılmıştır. Eğer  yığın(stack) bölgesine dikkat ederseniz fonksiyona girdiğinde nereden çağırıldığını gösterir. ( herhangi bir fonksiyondan çağırılmadığından dolayı "anonymous" olarak göreceksiniz)
+    Şu anda hata ayıklayıcı `merhaba()` fonksiyonunun içindedir ve `index.html` tarafından çağırılmıştır. Eğer yığın (stack) bölgesine dikkat ederseniz fonksiyona girdiğinde nereden çağırıldığını gösterir. (herhangi bir fonksiyondan çağırılmadığından dolayı "anonymous" olarak göreceksiniz)
 
     Eğer yığın maddesine tıklayacak olursanız hangi fonksiyondan çağırıldığını görebilirsiniz.
 3. **`Scope` -- kesme anında var olan değişkenlerin değerlerini gösterir**
@@ -131,10 +131,10 @@ Sağ panelin üstünde sadece bu işe has butonlar bulunmaktadır.
 : Eğer buna şimdi tıklarsanız `alert` çalışır. Önemli olan şey `alert` yerine farklı bir fonksiyon da olsa çalışma bu fonksiyonun içinde ne yaptığına önem vermez ve "üstünden atlar".
 
 <span class="devtools" style="background-position:-72px -76px"></span> -- adım at, `key:F11`.
-: Bir öncekinin aynısı, bir adım gider fakat bu defa eğer bir fonksiyon varsa onun "içine girer"(step into).
+: Bir öncekinin aynısı, bir adım gider fakat bu defa eğer bir fonksiyon varsa onun "içine girer" (step into).
 
 <span class="devtools" style="background-position:-104px -76px"></span> -- içinde bulunulan fonksiyonun sonuna kadar devam et, `key:Shift+F11`.
-: Çalışma içinde bulunan fonksiyonun sonuna gelir ve orada durur.Yanlışlıkla iç içe çağrının içine girilirse çıkmak için kullanışlı bir özelliktir.<span class="devtools" style="background-position:-72px -76px"></span>,
+: Çalışma içinde bulunan fonksiyonun sonuna gelir ve orada durur. Yanlışlıkla iç içe çağrının içine girilirse çıkmak için kullanışlı bir özelliktir.<span class="devtools" style="background-position:-72px -76px"></span>,
 
 <span class="devtools" style="background-position:-7px -28px"></span> -- Tüm kesme noktalarını etkinleştirme/devre dışı bırakma.
 
@@ -142,7 +142,7 @@ Sağ panelin üstünde sadece bu işe has butonlar bulunmaktadır.
 : Etkinleştirildiğinde, kodda herhangi bir hata olduğunda çalışma otomatik olarak durdurulur. Bu noktada analizlerinizi yapabilirsiniz. Eğer hata varsa hata ayıklama ekranını açabilir ve bu özelliği etkinleştirerek hatanın nerede olduğunu bulabilirsiniz.
 
 ```smart header="Buradan devam edin"
-Satır numaralarına sağ tıklayıp "Buradan devam et" özelliği ile kodu bir kaç adım ileriden devam etmesini sağlayabilirsiniz. Böylece yeniden bir kesme noktası oluşturmanıza gerek kalmaz.
+Satır numaralarına sağ tıklayıp "Buradan devam et" özelliği ile kodu birkaç adım ileriden devam etmesini sağlayabilirsiniz. Böylece yeniden bir kesme noktası oluşturmanıza gerek kalmaz.
 ```
 
 ## Loglama
@@ -170,6 +170,6 @@ Bunların sonucunda çalışmada ne gibi hatalar olduğunu görebilirsiniz.
 
 Bunlara ek olarak <https://developers.google.com/web/tools/chrome-devtools> adresinden daha geniş ve yeni bilgilere ulaşabilirsiniz.
 
-Bu bölümdeki bilgiler sizin hata ayıklama işlemine başlamanızda yardımcı olacaktır. Fakat tarayıcı ile alakalı çok fazla işlem yapıyorsanız bu durumda geliştirici  derinlemesine incelemeniz gerekmektedir.
+Bu bölümdeki bilgiler sizin hata ayıklama işlemine başlamanızda yardımcı olacaktır. Fakat tarayıcı ile alakalı çok fazla işlem yapıyorsanız bu durumda geliştirici derinlemesine incelemeniz gerekmektedir.
 
-Tabi bunun yanında deneme yanılma yöntemi ile de geliştirici araçlarının özelliklerini keşfedebilirsiniz. Unutmayın sağ tıklayarak farklı bölgelerde farklı fonksiyonları görebilirsiniz.
+Tabii bunun yanında deneme yanılma yöntemi ile de geliştirici araçlarının özelliklerini keşfedebilirsiniz. Unutmayın sağ tıklayarak farklı bölgelerde farklı fonksiyonları görebilirsiniz.
